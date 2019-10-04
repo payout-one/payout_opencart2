@@ -28,14 +28,14 @@
  *
  * The Payout payment module for OpenCart 2
  *
- * @version    0.9.1
+ * @version    1.0.0
  * @copyright  2019 Payout, s.r.o.
  * @author     Neotrendy s. r. o.
  * @link       https://github.com/payout-one/payout_opencart2
  */
 class ControllerExtensionPaymentPayout extends Controller {
     protected $payout_config = array(
-        'version' => '0.9.1',
+        'version' => '1.0.0',
         'compatibility' => array('2.3.0.2'),
         'routes' => array(
             'checkout' => 'extension/payment/payout/checkout',
